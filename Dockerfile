@@ -6,7 +6,7 @@ LABEL dev="useernametaken09"
 
 
 RUN apt-get update && \
-    apt-get install inzip openjdk-11-jdk -y
+    apt-get install unzip openjdk-11-jdk -y
 
 
 ADD  https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.115/bin/tomcat-apache9.0.115.zip /opt/
